@@ -1,6 +1,6 @@
 <?php
-
-class EasyPHPEnvPP{
+namespace EasyPHPEnvPP;
+class EasyPHPEnvPP {
 	
 	private $foundfile = false;
 	private $arrayData = array();
