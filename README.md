@@ -1,7 +1,11 @@
 # Easily Parse PHP .env Files!
   
 ## Installation
-
+via Composer:
+```bash
+$ composer require 9kinc/easyphpenvpp
+```
+or
 Include easyphpenvpp.php in your script  
 
 ## Usage
