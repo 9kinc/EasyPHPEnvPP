@@ -16,6 +16,12 @@ echo "<pre>";
 print_r($easyenv->print_data()); 
 echo "</pre>";
 
+// ## functions
+// $easyenv->get_file_found(); # Use this to see if file was found
+// $easyenv->get_data_list(); # Array with key and value data inside , use for loop to get these values!
+// $easyenv->get_errors(); # Array containing all the errors
+
+
 // test
 echo "<hr> Key APP_URL: " .$_ENV["APP_URL"]; 
 echo "<hr> Key APP_NAME: " .$_SERVER["APP_NAME"]; 
