@@ -1,0 +1,11 @@
+{
+    "name": "9kinc/easyphpenvpp",
+    "type": "library",
+    "description": "Easily read .env files using PHP and read them using $_ENV or $_SERVER",
+    "keywords": [".env","php env"],
+    "homepage": "https://github.com/9kinc/EasyPHPEnvPP", 
+     
+    "require": {
+        "php": ">=7.0"
+    } 
+}
