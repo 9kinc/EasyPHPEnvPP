@@ -21,6 +21,8 @@ echo "<hr> Key APP_URL: " .$_ENV["APP_URL"];
 echo "<hr> Key APP_NAME: " .$_SERVER["APP_NAME"]; 
 ```
 
+You can use $_SERVER or $_ENV to get your values!
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
