@@ -34,6 +34,9 @@ echo "<hr> Key APP_NAME: " .$_SERVER["APP_NAME"];
 
 You can use $_SERVER or $_ENV to get your values!
 
+## Note
+Check .env.example on how to setup the .env file. You can also use other file formats as long as the content is in right format
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
