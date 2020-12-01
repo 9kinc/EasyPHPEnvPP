@@ -1,6 +1,7 @@
 <?php
 
-require "easyphpenvpp.php"; // include the class
+//require "easyphpenvpp.php"; // include the class
+require "vendor/autoload.php"; // include the class
 
 $file_dir = '.env';
 $easyenv = new EasyPHPEnvPP($file_dir); 

@@ -6,6 +6,7 @@
     "homepage": "https://github.com/9kinc/EasyPHPEnvPP", 
      
     "require": {
-        "php": ">=7.0"
-    } 
+        "php": ">=5.3.0"
+    } ,
+    "license": "MIT"
 }
