@@ -1,7 +1,5 @@
 # Easily Parse PHP .env Files!
-
-Foobar is a Python library for dealing with word pluralization.
-
+  
 ## Installation
 
 Include easyphpenvpp.php in your script  
