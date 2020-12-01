@@ -12,9 +12,11 @@ Include easyphpenvpp.php in your script
 
 ```php
 require "easyphpenvpp.php"; // include the class
+//require "vendor/autoload.php"; // composer autoload
 
 $file_dir = '.env';
 $easyenv = new EasyPHPEnvPP($file_dir); 
+//$easyenv = new \EasyPHPEnvPP\EasyPHPEnvPP($file_dir);  // if using composer
 
 echo "<pre>";
 print_r($easyenv->print_data()); 

@@ -62,7 +62,7 @@ class EasyPHPEnvPP {
 				continue;
 			}
 			
-			$_key = $line_parts[0];
+			$_key = trim($line_parts[0]);
 			$_value = trim($line_parts[1]);
 			
 			if(in_array($_key,$list_duplicates)){
