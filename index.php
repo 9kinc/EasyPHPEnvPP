@@ -4,7 +4,7 @@ require "easyphpenvpp.php"; // include the class
 //require "vendor/autoload.php"; // include the class
 
 $file_dir = '.env';
-$easyenv = new EasyPHPEnvPP($file_dir); 
+$easyenv = new \EasyPHPEnvPP\EasyPHPEnvPP($file_dir); 
 
 echo "<pre>";
 print_r($easyenv->print_data()); 
